@@ -10,7 +10,7 @@ function App() {
     function ClickEvent(value) {
 
         let isOperator = (value) => {
-            let operators = ["+", "-", "X", "/", "%", "."];
+            let operators = ["+", "-", "X", "/", "%", ".","*"];
             if (operators.indexOf(value) === -1) {
                 return false
             }
@@ -45,15 +45,14 @@ function App() {
         }
         else if (value === "Del") {
             NewDefaultMainInputValue(DefaultMainInputValue.slice(0, DefaultMainInputValue.length - 1))
-            // NewLowerInputState(LowerInputState.slice(0, LowerInputState.length - 1))
             NewLowerInputState("")
         }
-        else if (parseInt(value) || value === "0") {
+        else if (parseInt(value) || value === "0" || value=== "00") {
             NewDefaultMainInputValue(DefaultMainInputValue + value)
-            NewLowerInputState("= " + eval(DefaultMainInputValue + value))
+            NewLowerInputState("= " + (eval(DefaultMainInputValue + value)).toLocaleString())
         }
         if (value === "=") {
-            NewDefaultMainInputValue(eval(DefaultMainInputValue))
+            NewDefaultMainInputValue((eval(DefaultMainInputValue)).toLocaleString())
         }
     }
 

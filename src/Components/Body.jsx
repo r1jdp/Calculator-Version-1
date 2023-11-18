@@ -1,7 +1,7 @@
 import styles from '../styles/Body.module.css'
 
 function Body({CLickEventRecorder}) {
-    let calculator_data = ['C', 'Del', '%', '/', '7', '8', '9', 'X', '4', '5', '6', '-', '1', '2', '3', '+', '(', '0', '.', '=']
+    let calculator_data = ['C', 'Del', '%', '/', '7', '8', '9', 'X', '4', '5', '6', '-', '1', '2', '3', '+', '00', '0', '.', '=']
 
     let index = -1;
 
