@@ -57,7 +57,7 @@ function App() {
     }
 
     onkeydown = (event) => {
-        let array = ['%', '/', '7', '8', '9', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', ")", "("]
+        let CheckingArray = ['/', "%", '7', '8', '9', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', ")", "("]
         if (event.key === "Backspace") {
             ClickEvent("Del")
         }
@@ -67,7 +67,7 @@ function App() {
         else if (event.key === "*" || event.key ==="X" || event.key==="x") {
             ClickEvent("X")
         }
-        else if (array.indexOf(event.key) != -1) {
+        else if (CheckingArray.indexOf(event.key) != -1) {
             ClickEvent(event.key)
         }
 

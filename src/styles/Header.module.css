@@ -10,7 +10,6 @@
     background: transparent;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    /* border: 1px solid red; */
     text-overflow: ellipsis
 }
 #text2{
@@ -22,7 +21,6 @@
     width: 86%;
     margin: 2px;
     border: none;
-    /* border: 1px solid red; */
     background: transparent;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
