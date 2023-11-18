@@ -1,0 +1,35 @@
+.button{
+    width: 70px;
+    height: 70px;
+    margin: 0px 3px;
+    border: 0.3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2em;
+    /* background: #5d5d5d; */
+    background: #341d0496;
+    color: white;
+}
+.equal{
+    background-color: #198754;
+    color: white;
+    border-color: #13653f;
+}
+.equal:hover{
+    box-shadow: inset 1px 1px 3em #136c43;
+}
+.special{
+    background: #dc8e1d;
+}
+.Upper{
+    background: #5d5d5d;
+}
+.button:hover{
+    box-shadow: inset 1px 1px 3em #301b0496;
+}
+.special:hover{
+    box-shadow: inset 1px 1px 3em #c3770e;
+}
+.Upper:hover{
+    box-shadow: inset 1px 1px 3em #545454;
+}

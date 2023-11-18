@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #9461fb; */
+    background-color: #3e4451;
+}
+@media (min-width: 0px) and (max-width:700px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}

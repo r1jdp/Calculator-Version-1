@@ -1,0 +1,30 @@
+#text{
+    font-size: 2em;
+    text-align: right;
+    height: 75%;
+    margin: 2px;
+    padding-right: 0.4rem;
+    width: 97%;
+    border: none;
+    background: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    /* border: 1px solid red; */
+    text-wrap: wrap;
+}
+#text2{
+    font-size: 1.8em;
+    text-align: right;
+    height: 25%;
+    padding-right: 0.4rem;
+    width: 97%;
+    margin: 2px;
+    border: none;
+    /* border: 1px solid red; */
+    background: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+#text:focus , #text2:focus{
+    outline: none;
+}
